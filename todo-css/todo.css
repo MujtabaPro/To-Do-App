@@ -1,0 +1,80 @@
+ .header {
+     background-color: #1E1E1E;
+     padding-bottom: 20px;
+ }
+ 
+ .foot {
+     background-color: #1E1E1E;
+     color: white;
+     font-family: monospace;
+     padding: 15px;
+     margin-top: 350px;
+     text-align: center;
+     font-size: 18px;
+ }
+ 
+ .header>.container>h2 {
+     color: white;
+     text-align: center;
+     font-family: monospace;
+ }
+ 
+ .inst {
+     width: 600px;
+     border-radius: 4px;
+     height: 30px;
+     margin-left: 20px;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px;
+     position: absolute;
+     z-index: 1;
+ }
+ 
+ .labst {
+     color: white;
+     font-family: monospace;
+     font-size: 25px;
+ }
+ 
+ .btnst {
+     width: 170px;
+     height: 30px;
+     margin-top: -11px;
+     margin-left: 600px;
+     font-family: monospace;
+     font-size: 18px;
+ }
+ 
+ .margst {
+     margin-left: 100px;
+ }
+ 
+ ul {
+     /* Margin styling Is Inline In ul TaG */
+     padding: 0;
+ }
+ 
+ ul li {
+     cursor: pointer;
+     position: relative;
+     padding: 12px 8px 12px 40px;
+     background-color: #eee;
+     font-size: 18px;
+     transition: 0.2s;
+     font-family: monospace;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
+ 
+ ul li:hover {
+     background: #1E1E1E;
+     color: white;
+ }
+ 
+ ul li.checked {
+     background: #888;
+     color: #fff;
+     text-decoration: underline;
+ }
